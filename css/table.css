@@ -1,0 +1,42 @@
+table {
+    font-family:  Arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.8em;
+  }
+
+  th {
+    padding: 18px;
+  }
+
+  td {
+    padding: 12px;
+  }
+
+  th,
+  td {
+    border: solid 1px #e6e6e6;
+  }
+
+  tr {
+    background-color: #EDEDED;
+  }
+
+  tr:nth-child(2n+1) {
+    background-color: #F7F7F7;
+  }
+
+  td:nth-child(3) {
+    width: 9%;
+  }
+
+  td:nth-child(2) {
+    width: 35%;
+  }
+
+  tfoot tr td, thead tr td {
+    background-color: rgb(2, 133, 173);
+    color: white;
+    text-align: center;
+  }

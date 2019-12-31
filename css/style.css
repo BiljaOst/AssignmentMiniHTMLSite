@@ -1,0 +1,167 @@
+body {
+    margin: 10px auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #142542;
+    font-size: 16px;
+  }
+
+  header {
+    color: #2f4261;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #a7d7f9;
+    padding: 8px 0 3px 0;
+  }
+
+  #title {
+    float: left;
+    width: 80%;
+	font-style: italic;  
+    line-height: 100px;
+  }
+  
+  #image {
+    float: left; 
+    width: 15%;
+	padding-left: 30px; 
+  }
+
+  .divClear{
+	clear: both;
+  }
+  nav {
+    padding: 16px 0 16px 0;
+    /* border-bottom: 1px solid gray; */
+  }
+
+  footer {
+    background-color: #f8f9fa;
+    color: #2f4261;
+    text-align: center;
+    padding: 16px 0 16px 0;
+    border-top: 1px solid #a7d7f9;
+    font-weight: 700;
+  }
+
+  section {
+    display: inline-block;
+    width: 77%;
+    padding-left: 20px;
+    margin: 20px 0;
+    border-left: 1px solid #a7d7f9;
+    background-color: #fff;
+    font-size: 1.15em;
+  }
+
+  aside {
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+    padding: 0 0 0 8px;
+  }
+
+  ul li {
+      list-style: none;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: #a7d7f9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    display: block;
+    line-height: 20px;
+  }
+ 
+  ul li a:visited {
+    color: #347fb4;
+  }
+  
+  ul li a:hover {
+    color: #347fb4;
+    text-decoration: underline;
+  }
+  
+  ul li a:active {
+    color: #347fb4;
+    text-decoration: underline;
+  }
+
+  ul li a:focus {
+    color: #347fb4;
+  }
+
+  #pupinBiography {
+    position: relative;
+  }
+
+  #pupinBiographyContent {
+    width: 75%;
+  }
+
+  img#pupinImage {
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+  }
+
+  img#universityImage {
+      margin: 20px auto;
+      display: block;
+  }
+
+  img#pupinCoilsImage {
+      float: left;
+      margin-left: 30px;
+  }
+
+  section h2 {
+    text-indent: 30px;
+  }
+
+  section h3 {
+    text-indent: 60px;
+  }
+
+  section p {
+    padding: 8px;
+    margin: 8px;
+    line-height: 1.5em;
+    text-align: justify;
+  }
+
+  section h3 + p {
+    margin-top: 30px;
+  }
+
+  section p:first-of-type {
+    margin-top: 30px;
+  }
+
+  #pupinCoils {
+    line-height: 2em;
+    font-size: 18px;
+  }
+
+  #pupinCoils p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  #pupinCoils h2 + p {
+    margin-top: 30px;
+  }
+
+  #divPupinCoils {
+    position: relative;
+    min-height: 480px;
+  }
+
+  #divPupinCoilsContent {
+    position: absolute;
+    bottom: 5px;
+    left: 370px;
+  }
+
+
+
